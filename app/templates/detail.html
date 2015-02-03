@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% block content %}
+    {% for build in match.builds %}
+        <div><p>-{{build.champ_name}}</p></div>
+            {% for step in build.steps %}
+                <div><p>--{{ step.time }}</p></div>
+                <div><p>
+                    {% for item in step.items %}
+                        |{{ item.item }}
+                        {% if item.is_sold %}
+                            (sold)
+                        {% endif %}
+                    {% endfor %}
+                </p></div>
+            {% endfor %}
+    {% endfor %}
+{% endblock %}
+
+
