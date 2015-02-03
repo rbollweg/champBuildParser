@@ -1,9 +1,8 @@
 # champBuildParser
 a wep app to parse champion builds from a riot match history page
-
--Written in Python 3.4
+Written in Python 3.4
   
-  
+-------------------------------------------------------------------
 --Installation (Assuming Python 3.4 is installed and in your PATH)
 
 -from cmdline
@@ -19,6 +18,7 @@ This includes a blank database file, to generate your own:
 
 -run db_create.py
 -run db_migrate.py
+
 
 
 and finally, to run:
