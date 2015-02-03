@@ -8,9 +8,13 @@ a wep app to parse champion builds from a riot match history page
 
 -from cmdline
 pip install flask
+
 pip install flask-sqlalchemy
+
 pip install sqlalchemy-migrate
+
 pip install flask-wtf
+
 
 -run db_create.py
 -run db_migrate.py
