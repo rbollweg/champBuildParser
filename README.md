@@ -15,6 +15,7 @@ pip install sqlalchemy-migrate
 
 pip install flask-wtf
 
+This includes a blank database file, to generate your own:
 
 -run db_create.py
 -run db_migrate.py
