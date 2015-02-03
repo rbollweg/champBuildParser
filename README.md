@@ -19,6 +19,10 @@ This includes a blank database file, to generate your own:
 
 -run db_create.py
 -run db_migrate.py
+
+
+and finally, to run:
+
 -run run.py
 
 should now be running on localhost http://127.0.0.1:5000/
