@@ -96,7 +96,7 @@ class Item():
         self.is_sold = bool
 
 def spider(url):
-    driver = webdriver.Firefox()
+    driver = webdriver.PhantomJS(service_log_path='C:/Users/The Gibs/PycharmProjects/extremeFlask/ghostdriver.log', executable_path="C:/bin/phantomjs/phantomjs.exe")
     driver.get(url)
     current_match = Match()
     current_match.match_url = url
